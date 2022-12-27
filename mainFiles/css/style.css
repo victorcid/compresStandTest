@@ -1,0 +1,192 @@
+@import 'bootstrap.min.css';
+
+/* CSS General */
+* {
+	font-family: 'Open Sans', Arial, sans-serif;
+	outline: none !important;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	color: #575756;
+	font-size: 16px;
+	font-weight: 300;
+	padding-top: 25px;
+	padding-left: 25px;
+	background-color: #fff;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+a {
+	color: #575756;
+	text-decoration: none;
+}
+
+.button, button,
+input[type="button"],
+input[type="submit"] {
+	color: #fff;
+	font-size: 100%;
+	margin: 10px;
+	padding: 1 1px;
+	height: 30px;
+	border: none;
+	display: block;
+	background: #e94e1b;
+}
+
+
+input[type="text"],
+input[type="submit"],
+input[type="number"] {
+	font-size: 100%;
+	padding: 1 1px;
+	margin: 5px;
+	height: 25px;
+	width: 150px;
+}
+
+select{
+	font-size: 100%;
+	padding: 1 1px;
+	margin: 5px;
+	height: 25px;
+}
+
+.espacio {
+    float: left;
+    width: 60% !important;
+}
+input, textarea, button, .button {
+    font-size: 100%;
+    padding: 0 20px;
+    line-height: 34px;
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    resize: none;
+}
+.form-edit label {
+    display: block;
+    margin-bottom: 5px;
+}
+.fileContainer i {
+    line-height: inherit;
+}
+.fileContainer [type=file] {
+    cursor: pointer;
+}
+.form-edit label {
+    display: block;
+    margin-bottom: 5px;
+}
+.fileContainer {
+    line-height: 34px;
+    text-align: center;
+    background: #e94e1b;
+    border-radius: 0 5px 5px 0;
+    float: left;
+    padding: 0 .5em;
+    color: #fff;
+}
+.fileContainer {
+    overflow: hidden;
+    position: relative;
+}
+
+.fileContainer [type=file] {
+    cursor: inherit;
+    display: block;
+    font-size: 100%;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+    float: left;
+    width: 10% !important;
+}
+
+.info{
+	height: 500px;
+	display: inline-block;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.grid{
+	display: inline-block;
+}
+
+.grid-container {
+	width: 804px;
+	height: 504px;
+	border: solid;
+	border-color: #000;
+	border-width: 2px;
+	border-radius: 0px;
+  display: grid;
+  grid:	5px 5px 5px 5px 5px	5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px /	5px 5px 5px 5px	5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px;
+  grid-gap: 0px;
+  background-color: #fff;
+}
+
+.x0{
+  background-color: #ffffff;
+}
+.x1{
+  background-color: #ec0707;
+}
+.x2{
+  background-color: #ec7d07;
+}
+.x3{
+  background-color: #4caf50;
+}
+.x4{
+  background-color: #00bcd4;
+}
+.x5{
+  background-color: #0b07ec;
+}
+.x6{
+  background-color: #3f51b5;
+}
+.x7{
+  background-color: #bf0ab3;
+}
+.x8{
+  background-color: #ffeb3b;
+}
+.x9{
+  background-color: #607d8b;
+}
+.xa{
+  background-color: #5a070a;
+}
+.xb{
+  background-color: #ff5722;
+}
+.xc{
+  background-color: #9e9e9e;
+}
+.xd{
+  background-color: #a6e261;
+}
+.xe{
+  background-color: #f44336;
+}
+.xf{
+  background-color: #ada55c;
+}
